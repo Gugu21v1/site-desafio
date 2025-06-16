@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section {
+  width: 80%;
+}
+
+.inicio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 32px;
+  flex-wrap: wrap;
+}
+
+.parte-esquerda {
+  width: 35%;
+  min-width: 280px;
+}
+
+.titulo {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 45px;
+  color: #403c4e;
+  line-height: 1.25;
+  min-width: 400px;
+}
+
+.subtitulo {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 18px;
+  color: #403c4e;
+  word-wrap: break-word;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 32px;
+  margin-top: 16px;
+  min-width: 375px;
+}
+
+.botao-ver-mais {
+  background-color: #cc3000ff;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 9px 18px;
+  overflow-wrap: break-word;
+  border-radius: 0.375em;
+  font-weight: 600;
+  margin-top: 32px;
+}
+
+.vantagens-titulo {
+  color: #403c4e;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 36px;
+  word-wrap: break-word;
+  margin-top: 32px;
+}
+
+.vantagens {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vantagem {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.vantagem svg {
+  background-color: #ffd8ccff;
+  border: #e5beb2ff;
+  border-width: 1px;
+  border-style: solid;
+  padding: 0.3em;
+  border-radius: 0.375em;
+  width: 32px;
+  height: 32px;
+  margin-right: 16px;
+  align-self: flex-start;
+  justify-self: start;
+}
+
+.vantagem-tipo {
+  color: #403c4e;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 22.5px;
+  word-wrap: break-word;
+}
+
+.vantagem-descricao {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  color: #403c4e;
+  word-wrap: break-word;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.imagem-principal {
+  width: 50%;
+  overflow: hidden;
+  border-radius: 0.35em;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("src/mulher_sorrindo.jpg");
+  height: 1150px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dfdfe0;
+  min-width: 420px;
+  margin: 32px;
+}
+
+.video-secao {
+  background-color: #f3d5cd;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 32px auto;
+}
+
+.video-secao video {
+  max-height: 600px;
+  border-radius: 0.375em;
+  margin-top: 32px;
+}
+
+.botao-video {
+  margin-bottom: 32px;
+}
+
+.previa-do-app-titulo,
+.depoimentos-titulo {
+  color: #403c4e;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 35px;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.imagens-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.imagem-app {
+  max-height: 400px;
+  margin: 16px;
+  border-radius: 0.375em;
+}
+
+.depoimentos-secao {
+  background-color: #f3d5cd;
+  width: 100%;
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.depoimentos-titulo {
+  margin: 32px auto;
+}
+
+.videos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.video video {
+  height: 500px;
+  margin: 16px 16px;
+  border-radius: 0.375em;
+}
+
+.botao-video {
+  margin-bottom: 32px;
+}
+
+.footer {
+  background-color: #ffad94;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.suporte-titulo,
+.redes-sociais-titulo {
+  color: #000000;
+  font-family: "Merriweather", serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1.2px;
+  word-wrap: break-word;
+}
+
+.suporte,
+.redes-sociais {
+  margin: 16px 32px;
+}
+
+.suporte-texto,
+.suporte-texto a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  color: #403c4e;
+  color: #403c4e;
+  word-wrap: break-word;
+  min-width: 350px;
+}
+
+.suporte-texto a {
+  text-decoration: underline;
+}
+
+.redes-emojis {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.redes-emojis a img {
+  width: 24px;
+}
+
+.creditos {
+  text-align: center;
+  width: 100%;
+}
+
+@media (max-width: 1120px) {
+  .inicio {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .parte-esquerda {
+    width: 80%;
+  }
+
+  .imagem-principal {
+    height: 500px;
+    margin-bottom: 0;
+    min-width: 300px;
+  }
+
+  .titulo,
+  .subtitulo {
+    min-width: 0;
+  }
+}
+
+@media (max-width: 625px) {
+  .footer {
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    text-align: center;
+  }
+
+  .redes-emojis a img {
+    width: 30px;
+  }
+}
